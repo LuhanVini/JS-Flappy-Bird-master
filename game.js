@@ -23,6 +23,7 @@
  })
 
  scrn.onkeydown = function keyDown(e) {
+ 	if (e.keyCode == 32 || e.keyCode == 87 || e.keyCode == 38)   // Tecla de espaço ou tecla W ou seta para cima
  	{
  		switch (state.curr) {
 	        case state.getReady :
