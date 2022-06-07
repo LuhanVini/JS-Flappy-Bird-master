@@ -23,7 +23,6 @@
  })
 
  scrn.onkeydown = function keyDown(e) {
- 	if (e.keyCode == 32 || e.keyCode == 87 || e.keyCode == 38)   // Space Key or W key or arrow up
  	{
  		switch (state.curr) {
 	        case state.getReady :
